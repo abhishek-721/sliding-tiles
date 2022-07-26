@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_bar_height"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/colorGradientEnd"
+        android:elevation="@dimen/custom_bar_elevation"
+        android:text="@string/high"
+        android:textSize="@dimen/custom_bar_text_view_text_size"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginStart="@dimen/high_text_view_margin_start_end"
+        android:layout_marginTop="@dimen/high_text_view_margin_top"
+        android:text="@string/easy"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/value1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/value1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginTop="@dimen/high_text_view_margin_top"
+        android:layout_marginEnd="@dimen/high_text_view_margin_start_end"
+        android:gravity="end"
+        android:text="@string/unavailable"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/b1"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginStart="@dimen/high_text_view_margin_start_end"
+        android:text="@string/medium"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/value2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/b1" />
+
+    <TextView
+        android:id="@+id/value2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginEnd="@dimen/high_text_view_margin_start_end"
+        android:gravity="end"
+        android:text="@string/unavailable"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/message"
+        app:layout_constraintTop_toBottomOf="@id/value1" />
+
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginStart="@dimen/high_text_view_margin_start_end"
+        android:text="@string/hard"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/value3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/message" />
+
+    <TextView
+        android:id="@+id/value3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/high_text_view_height"
+        android:layout_marginEnd="@dimen/high_text_view_margin_start_end"
+        android:gravity="end"
+        android:text="@string/unavailable"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/b3"
+        app:layout_constraintTop_toBottomOf="@id/value2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin2"
+        android:text="@string/back"
+        android:theme="@style/ButtonTheme"
+        app:cornerRadius="@dimen/button_corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

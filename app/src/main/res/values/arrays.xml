@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoryTags">
+        <item>@string/nature</item>
+        <item>@string/cities</item>
+        <item>@string/wildlife</item>
+        <item>@string/automobile</item>
+        <item>@string/food</item>
+        <item>@string/travel</item>
+    </string-array>
+
+    <integer-array name="categoryDrawables">
+        <item>@drawable/n1_u</item>
+        <item>@drawable/ct1_btn</item>
+        <item>@drawable/w1_u</item>
+        <item>@drawable/c1_u</item>
+        <item>@drawable/f1_u</item>
+        <item>@drawable/t1_u</item>
+    </integer-array>
+
+    <integer-array name="categoryIds">
+        <item>@array/nature</item>
+        <item>@array/cities</item>
+        <item>@array/wildlife</item>
+        <item>@array/automobile</item>
+        <item>@array/food</item>
+        <item>@array/travel</item>
+    </integer-array>
+
+    <integer-array name="nature">
+        <item>@drawable/n1_u</item>
+        <item>@drawable/n2_u</item>
+        <item>@drawable/n3_u</item>
+        <item>@drawable/n4_u</item>
+        <item>@drawable/n5_u</item>
+        <item>@drawable/n6_u</item>
+        <item>@drawable/n7_u</item>
+        <item>@drawable/n8_u</item>
+    </integer-array>
+
+    <integer-array name="cities">
+        <item>@drawable/ct1_u</item>
+        <item>@drawable/ct2_u</item>
+        <item>@drawable/ct3_u</item>
+        <item>@drawable/ct4_u</item>
+        <item>@drawable/ct5_u</item>
+        <item>@drawable/ct6_u</item>
+        <item>@drawable/ct7_u</item>
+        <item>@drawable/ct8_u</item>
+    </integer-array>
+
+    <integer-array name="wildlife">
+        <item>@drawable/w1_u</item>
+        <item>@drawable/w2_u</item>
+        <item>@drawable/w3_u</item>
+        <item>@drawable/w4_u</item>
+        <item>@drawable/w5_u</item>
+        <item>@drawable/w6_u</item>
+        <item>@drawable/w7_u</item>
+        <item>@drawable/w8_u</item>
+    </integer-array>
+
+    <integer-array name="automobile">
+        <item>@drawable/c1_u</item>
+        <item>@drawable/c2_u</item>
+        <item>@drawable/c3_u</item>
+        <item>@drawable/c4_u</item>
+        <item>@drawable/c5_u</item>
+        <item>@drawable/c6_u</item>
+        <item>@drawable/c7_u</item>
+        <item>@drawable/c8_u</item>
+    </integer-array>
+
+    <integer-array name="food">
+        <item>@drawable/f1_u</item>
+        <item>@drawable/f2_u</item>
+        <item>@drawable/f3_u</item>
+        <item>@drawable/f4_u</item>
+        <item>@drawable/f5_u</item>
+        <item>@drawable/f6_u</item>
+        <item>@drawable/f7_u</item>
+        <item>@drawable/f8_u</item>
+    </integer-array>
+
+    <integer-array name="travel">
+        <item>@drawable/t1_u</item>
+        <item>@drawable/t2_u</item>
+        <item>@drawable/t3_u</item>
+        <item>@drawable/t4_u</item>
+        <item>@drawable/t5_u</item>
+        <item>@drawable/t6_u</item>
+        <item>@drawable/t7_u</item>
+        <item>@drawable/t8_u</item>
+    </integer-array>
+</resources>

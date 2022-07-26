@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sliding Tiles</string>
+
+    <!-- Main Menu -->
+    <string name="play">play</string>
+    <string name="high">high scores</string>
+    <string name="share">share</string>
+    <string name="settings">settings</string>
+    <string name="quit">quit</string>
+
+    <!-- Levels -->
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <!--Categories-->
+    <string name="category">Categories</string>
+    <string name="nature">Nature</string>
+    <string name="cities">Cities</string>
+    <string name="wildlife">Wildlife</string>
+    <string name="automobile">Automobile</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="deepsea">Deep sea</string>
+    <string name="flowers">Flowers</string>
+
+    <!-- Game -->
+    <string name="sliding_tiles">Sliding Tiles</string>
+    <string name="pause">Pause menu</string>
+    <string name="resume">resume</string>
+    <string name="restart">restart</string>
+    <string name="main_menu">main menu</string>
+    <string name="sound_on">Sound: ON</string>
+    <string name="sound_off">Sound: OFF</string>
+    <string name="complete">Congratulations</string>
+    <string name="time_taken">Completed in</string>
+    <string name="quit_game">Do you want to quit?</string>
+    <string name="quit_to_main_menu">Do you want to return to main menu?</string>
+    <string name="restart_game">Do you want to restart?</string>
+    <string name="control_absolute">Control: Absolute</string>
+    <string name="control_relative">Control: Relative</string>
+    <string name="rate_on_store">Rate us</string>
+    <string name="unavailable">0</string>
+    <string name="completion_note">You have completed in</string>
+
+    <!-- options -->
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="back">back</string>
+    <string name="replay">replay</string>
+    <string name="next">next</string>
+
+</resources>

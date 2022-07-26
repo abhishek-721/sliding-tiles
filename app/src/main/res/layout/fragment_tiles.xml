@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TilesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorGradientEnd"
+        android:elevation="@dimen/custom_bar_elevation"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_pause_white_24dp"
+            custom:layout_constraintStart_toStartOf="parent"
+            custom:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_timer_white_24dp"
+            custom:layout_constraintEnd_toStartOf="@id/chronometer"
+            custom:layout_constraintTop_toTopOf="parent" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="@dimen/custom_bar_text_view_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            custom:layout_constraintTop_toTopOf="parent"
+            custom:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="@dimen/tile_view_padding"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@id/bar">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

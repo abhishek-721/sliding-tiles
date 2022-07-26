@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TileView">
+        <attr name="tileCount" format="integer"/>
+        <attr name="dividerSize" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="StrokedTextView">
+        <attr name="strokeWidth2" format="float"/>
+        <attr name="strokeColor" format="color"/>
+
+        <attr name="gradientStartColor" format="color"/>
+        <attr name="gradientEndColor" format="color"/>
+    </declare-styleable>
+</resources>

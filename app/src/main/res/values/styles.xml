@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/gradient</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/amethysta</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+
+    <style name="ButtonTheme" parent="Theme.MaterialComponents.Light">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/colorGradientEnd</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">@color/colorGradientEnd</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="ActivityDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@color/colorGradientStart</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+        <item name="windowFixedWidthMinor">460dp</item>
+        <item name="windowFixedWidthMajor">780dp</item>
+        <item name="android:fontFamily">@font/amethysta</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+        <item name="android:windowExitAnimation">@android:anim/linear_interpolator</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/linear_interpolator</item>
+    </style>
+
+</resources>
